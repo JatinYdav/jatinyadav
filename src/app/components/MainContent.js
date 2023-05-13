@@ -11,15 +11,10 @@ import MemoReactDark from "../svgs component/ReactDark";
 import MemoVSCodeDark from "../svgs component/VSCodeDark";
 import MemoMyPhoto from "../svgs component/MyPhoto";
 
-
-
-
-
-
 const MainContent = () => {
   return (
     <div className="maincontentwrapper">
-        <h1 className="titleofbox">Just Me:</h1>
+      <h1 className="titleofbox">Just Me:</h1>
       <div className="box1">
         <div className="subbox1">
           <article className="container1">
@@ -85,28 +80,28 @@ const MainContent = () => {
             </p>
           </article>
           <div className="subbox3division">
-              <article className="container5">
-                <MemoMyPhoto />
-              </article>
-              <article className="container6">
-                <iframe
-                  style={{
-                    borderRadius: "35.85px!important",
-                  }}
-                  src="https://open.spotify.com/embed/track/2OXUK0Lwgv5Y9M5m8bI9Af?utm_source=generator&theme=0"
-                  width="379"
-                  height="351"
-                  frameBorder="0"
-                  scrolling="no"
-                  allowfullscreen=""
-                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                  loading="lazy"
-                ></iframe>
-              </article>
+            <article className="container5">
+              <MemoMyPhoto />
+            </article>
+            <article className="container6">
+              <iframe
+                style={{
+                  borderRadius: "35.85px!important",
+                }}
+                src="https://open.spotify.com/embed/track/2OXUK0Lwgv5Y9M5m8bI9Af?utm_source=generator&theme=0"
+                width="379"
+                height="351"
+                frameBorder="0"
+                scrolling="no"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+              ></iframe>
+            </article>
           </div>
         </div>
         <div className="subbox4">
-            <MemoDemonSlayer />
+          <MemoDemonSlayer />
         </div>
       </div>
     </div>
