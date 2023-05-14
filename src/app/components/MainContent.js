@@ -10,6 +10,7 @@ import MemoNodeJSDark from "../svgs component/NodeJSDark";
 import MemoReactDark from "../svgs component/ReactDark";
 import MemoVSCodeDark from "../svgs component/VSCodeDark";
 import MemoMyPhoto from "../svgs component/MyPhoto";
+import { Tweet } from "react-tweet";
 
 const MainContent = () => {
   return (
@@ -32,21 +33,9 @@ const MainContent = () => {
         </div>
         <div className="subbox2">
           <article className="container2">
-            <a
-              class="twitter-timeline"
-              data-height="302"
-              data-width="508"
-              data-theme="dark"
-              data-chrome="noscrollbar"
-              href="https://twitter.com/Jatin_ydav?ref_src=twsrc%5Etfw"
-            >
-              Tweets by Jatin_ydav
-            </a>{" "}
-            <script
-              async
-              src="https://platform.twitter.com/widgets.js"
-              charset="utf-8"
-            ></script>
+            <div className="dark">
+              <Tweet id="1655885056425041920"  />
+            </div>
           </article>
           <article className="container3">
             <h1>Go-to Languages & Tools</h1>

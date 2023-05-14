@@ -39,6 +39,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .container1 {
@@ -54,7 +55,7 @@
 }
 
 .container1 h1 {
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-inter), sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -64,7 +65,7 @@
 }
 
 .container1 p {
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-inter), sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -82,13 +83,14 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+  gap: 1em;
+  
 }
 
 .container2 {
   border-radius: 18.5504px;
-  overflow: hidden;
   width: 100%;
-  border: 1.5px solid #515052;
+
 }
 
 .container3 {
@@ -167,14 +169,12 @@
 }
 
 .container4 p {
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-inter);
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 18px;
   line-height: 160%;
   /* or 29px */
-
-  letter-spacing: 0.065em;
 
   color: rgba(255, 255, 255, 0.6);
 }
@@ -192,3 +192,8 @@
   border-radius: 35.5938px;
   overflow: hidden;
 }
+
+.tweet{
+  box-sizing: inherit;
+}
+
